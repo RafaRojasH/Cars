@@ -5,8 +5,6 @@ from PIL import Image
 data = pd.read_csv('carsDB.csv')
 df = pd.DataFrame(data, columns=['Nombre', 'Version', 'Pelicula', 'Tipo', 'Observaciones', 'Imagen'])
 
-def open_image(image):
-    st.image(image, width=300)
 
 
 st.title('Cars de Rafa')
@@ -43,7 +41,7 @@ elif opcion == 'Pelicula':
         if df['Pelicula'][i] == pelicula:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
     
-    st.image(image)
+    st.image(imagen)
 elif opcion == 'Tipo':
     tipos = df['Tipo'].drop_duplicates()
     tipo = st.sidebar.selectbox('Elige un tipo', tipos)
@@ -52,7 +50,7 @@ elif opcion == 'Tipo':
         if df['Tipo'][i] == tipo:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
     
-    st.image(image)
+    st.image(imagen)
 print('OK')
 
 
