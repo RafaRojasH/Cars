@@ -27,20 +27,14 @@ if opcion == 'Nombre':
         for i in df.index:
             if df['Nombre'][i] == nombre and df['Version'][i] == version:
                 imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-        for image in imagen:
-            button_image = st.button('Open image')
-            if button_image:
-                open_image(image)
-            st.image(image, width=300, use_column_width=True)
+        
+        st.image(imagen)
     else:
         for i in df.index:
             if df['Nombre'][i] == nombre:
                 imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-        for image in imagen:
-            button_image = st.button('Open image')
-            if button_image:
-                open_image(image)
-            st.image(image, width=300, use_column_width=True)
+      
+        st.image(imagen)
 elif opcion == 'Pelicula':
     peliculas = df['Pelicula'].drop_duplicates()
     pelicula = st.sidebar.selectbox('Elige una película', peliculas)
@@ -48,11 +42,8 @@ elif opcion == 'Pelicula':
     for i in df.index:
         if df['Pelicula'][i] == pelicula:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-    for image in imagen:
-        button_image = st.button('Open image')
-        if button_image:
-            open_image(image)
-        st.image(image, width=300, use_column_width=True)
+    
+    st.image(image)
 elif opcion == 'Tipo':
     tipos = df['Tipo'].drop_duplicates()
     tipo = st.sidebar.selectbox('Elige un tipo', tipos)
@@ -60,11 +51,8 @@ elif opcion == 'Tipo':
     for i in df.index:
         if df['Tipo'][i] == tipo:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-    for image in imagen:
-        button_image = st.button('Open image')
-        if button_image:
-            open_image(image)
-        st.image(image, width=300, use_column_width=True)
+    
+    st.image(image)
 print('OK')
 
 
