@@ -27,7 +27,7 @@ if opcion == 'Nombre':
         for i in df.index:
             if df['Nombre'][i] == nombre and df['Version'][i] == version:
                 imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-        for image in images:
+        for image in imagen:
             button_image = st.button('Open image')
             if button_image:
                 open_image(imagen)
@@ -36,7 +36,7 @@ if opcion == 'Nombre':
         for i in df.index:
             if df['Nombre'][i] == nombre:
                 imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-        for image in images:
+        for image in imagen:
             button_image = st.button('Open image')
             if button_image:
                 open_image(imagen)
@@ -48,7 +48,7 @@ elif opcion == 'Pelicula':
     for i in df.index:
         if df['Pelicula'][i] == pelicula:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-    for image in images:
+    for image in imagen:
         button_image = st.button('Open image')
         if button_image:
             open_image(imagen)
@@ -60,7 +60,7 @@ elif opcion == 'Tipo':
     for i in df.index:
         if df['Tipo'][i] == tipo:
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
-    for image in images:
+    for image in imagen:
         button_image = st.button('Open image')
         if button_image:
             open_image(imagen)
