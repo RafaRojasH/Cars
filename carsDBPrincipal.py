@@ -47,3 +47,12 @@ elif opcion == 'Tipo':
             imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
     st.image(imagen)
 print('OK')
+
+def open_image(image):
+    st.image(image, width=300)
+for image in images:
+    button_image = st.button('Open image')
+    if button_image:
+        open_image(image)
+
+    st.image(image, width=300, use_column_width=True)
