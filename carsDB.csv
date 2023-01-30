@@ -1,18 +1,50 @@
-Nombre,Version,Pelicula,Tipo,Observaciones,Imagen
-Chick Hicks,Original,Cars 1,Carreras,Original,chick_desert
-Rayo McQueen,Dinoco,Cars 1,Carreras,Azul Dinoco,dinoco_mcqueen_desert
-Rayo McQueen,LLantas sucias,Cars 1,Carreras,Llantas sucias,dirt_track_mcqueen_desert_single
-DJ,Original,Cars 1,Carretera,Original,dj_desert
-Filmore,Original,Cars 1,Radiador Springs,Original,fillmore_desert
-Doc Hudson,Original,Cars 1,Radiador Springs,Original,hudson_desert
-Leakless,Original,Cars 1,Carreras,Original,leak_less_desert
-Rayo McQueen,Original,Cars 1,Carreras,Original,desert_mcqueen
-Lizzie,Original,Cars 1,Radiador Springs,Original,lizzie_desert
-Mate,Original,Cars 1,Radiador Springs,Original,martin_tow_mater_desert
-Nitroade,Original,Cars 1,Carreras,Original,nitroade_desert
-Ramon,Verde,Cars 1,Radiador Springs,Verde,ramone_green_desert
-Sally,Original,Cars 1,Radiador Springs,Original,sally_desert
-Sargento,Original,Cars 1,Radiador Springs,Original,sergent_sarge_desert
-Sheriff,Original,Cars 1,Radiador Springs,Original,sheriff_desert
-El Rey,Original,Cars 1,Carreras,Original,the_king_desert
-Wingo,Original,Cars 1,Carretera,Original,wingo_desert
+Brian,Oversize,Cars 1,Copa Piston,Espectador,brian
+Taia Decotura,Oversize,Cars 2,Jap—n,Ciudadano,taia_decotura
+Al Oft,Oversize,Cars 1,Copa Piston,Carreras,Al Oft
+Barney Stormin,Oversize,Cars 1,Copa Piston,Carreras,Barney Stormin
+Marco Super Fav18,Oversize,Cars 1,Copa Piston,Carreras,Marco Super Fav18
+Frank,Oversize,Cars 1,Radiador Spring,Ciudadano,Frank
+Kingpin Nobunaga,Oversize,Cars 2,Jap—n,Ciudadano,Kingpin Nobunaga
+Rotor Turbosky,Oversize,Cars 1,Copa Piston,Carreras,Rotor Turbosky
+Towin Eoin,Oversize,Cars 2,Italia,Carreras,Towin Eoin
+Van Scanlane,Oversize,Cars 1,Copa Piston,Espectador,Van Scanlane
+Mate,Dr. Abschlepp Wagen,Cartoons,Cartoons,Cartoons,Dr Abschlepp Wagen
+Mator,Original,Cartoons,Cartoons,Cartoons,Mator
+Hummer Sven,Oversize,Cars 1,LA,Ciudadano,Hummer Sven
+Elvis RV,Oversize,Cars 1,LA,Ciudadano,Elvis RV
+Tiny Lugsworth,Oversize,Cars 3,Londres,Carreras,Tiny Lugsworth
+Dustin Mellows,Oversize,Cars 1,Radiador Spring,Ciudadano,Dustin Mellows
+Dr Damage,Oversize,Cars 3,Thunder Hollow,Carreras,Dr Damage
+Miss Fritter,Oversize,Cars 3,Thunder Hollow,Carreras,Miss Fritter
+Rasta Carian,Oversize,Cartoons,Monster Truck Mater,Principal,Rasta Carian
+Rayo McQueen,Frightening McMean,Cartoons,Monster Truck Mater,Principal,Frightening McMean
+Mate,The Tormentor,Cartoons,Monster Truck Mater,Principal,The Tormentor
+I-Screamer,Oversize,Cartoons,Monster Truck Mater,Principal,I-Screamer
+Tormentor's Biggest Fan,Oversize,Cartoons,Monster Truck Mater,Principal,Tormentor's Biggest Fan
+Mate,Beanie Hat Mater,Cartoons,Monster Truck Mater,Principal,Beanie Hat Mater
+Eddie,Original,Cartoons,Heavy Metal Mater,Principal,Eddie
+Rocky,Original,Cartoons,Heavy Metal Mater,Principal,Rocky
+Rayo McQueen,Heavy Metal,Cartoons,Heavy Metal Mater,Principal,Heavy Metal Rayo
+Mate,Heavy Metal,Cartoons,Heavy Metal Mater,Principal,Heavy Metal Mate
+Rodney the Rocker,Original,Cartoons,Heavy Metal Mater,Principal,Rodney the Rocker
+Kabuto,Jap—n,Cars 2,Jap—n,Ciudadano,Kabuto Cars 2
+Kabuto Ninja,Original,Cars 2,Jap—n,Ciudadano,Kabuto Ninja
+Rayo McQueen,Dragon Lightning McQueen,Cartoons,Tokyo Mater,Principal,Dragon Lightning McQueen
+Rayo McQueen,Dragon Lightning McQueen with Metallic Finish,Cartoons,Tokyo Mater,Principal,Dragon Lightning McQueen with Metallic Finish
+Komodo,Original,Cartoons,Tokyo Mater,Principal,Komodo
+Yokoza,Original,Cartoons,Tokyo Mater,Principal,Yokoza
+Ito San,Original,Cartoons,Tokyo Mater,Principal,Ito San
+Todd,Original,Cars 1,Cortos,"Todd, the Pizza Planet Truck",Todd
+PT Flea,Original,Cars 1,Cortos,Bichos,PT Flea
+Flik,Original,Cars 1,Cortos,Bichos,Flik
+Yeti,Original,Cars 1,Cortos,Monsters Truck,Yeti
+Sulley,Original,Cars 1,Cortos,Monsters Truck,Sulley
+Mike Wazowski,Original,Cars 1,Cortos,Monsters Truck,Mike Wazowski
+Hamm,Original,Cars 1,Cortos,Monsters Truck,Hamm
+Woody,Original,Cars 1,Cartoons,Toy Cars,Woody
+Buzz Light Car,Original,Cars 1,Cartoons,Toy Cars,Buzz Light Car
+Sweet Tea,Original,Cars 3,Thomasville,Thomasville,Sweet Tea
+Edamame Tsashimi,Original,Cars 2,Jap—n,Ciudadano,Edamame Tsashimi
+Daisu Tsashimi,Original,Cars 2,Jap—n,Ciudadano,Daisu Tsashimi
+Paki,Original,Cartoons,Tokyo Mater,Principal,Paki
+Teki,Original,Cartoons,Tokyo Mater,Principal,Teki
