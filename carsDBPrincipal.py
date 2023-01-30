@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-data = pd.read_csv('carsDB.csv')
+data = pd.read_csv('carsDB.csv', index_col = False)
 df = pd.DataFrame(data, columns=['Nombre', 'Version', 'Pelicula', 'Tipo', 'Observaciones', 'Imagen'])
 
 
