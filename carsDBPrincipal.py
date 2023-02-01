@@ -32,7 +32,7 @@ if opcion == 'Nombre':
             if df['Nombre'][i] == nombre:
                 imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
       
-        st.image(imagen)
+        #st.image(imagen)
 elif opcion == 'Pelicula':
     peliculas = df['Pelicula'].drop_duplicates()
     pelicula = st.sidebar.selectbox('Elige una película', peliculas)
