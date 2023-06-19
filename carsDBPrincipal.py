@@ -24,13 +24,18 @@ if opcion == 'Nombre':
     if version != 'Todos':
         for i in df.index:
             if df['Nombre'][i] == nombre and df['Version'][i] == version:
-                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
-        
+                try:
+                    imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+                except:
+                    imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
         st.image(imagen)
     else:
         for i in df.index:
             if df['Nombre'][i] == nombre:
-                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+                try:
+                    imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+                except:
+                    imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
       
         #st.image(imagen)
 elif opcion == 'Pelicula':
@@ -39,7 +44,10 @@ elif opcion == 'Pelicula':
     imagen = []
     for i in df.index:
         if df['Pelicula'][i] == pelicula:
-            imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+            try:
+                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+            except:
+                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
     
     st.image(imagen)
 elif opcion == 'Tipo':
@@ -48,7 +56,10 @@ elif opcion == 'Tipo':
     imagen = []
     for i in df.index:
         if df['Tipo'][i] == tipo:
-            imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+            try:
+                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpeg')
+            except:
+                imagen.append('Imagenes/' + df['Imagen'][i] + '.jpg')
     
     st.image(imagen)
 print('OK')
